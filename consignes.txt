@@ -1,0 +1,4 @@
+Page avec un menu (on lance le jeu, ou dernier score)
+Seconde page avec opération --> mesasge vrai ou faux en couleur 
+
+https://github.com/Perdenn/MentalCounting.git
