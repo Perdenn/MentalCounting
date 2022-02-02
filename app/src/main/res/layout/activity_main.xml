@@ -8,40 +8,47 @@
     tools:ignore="ExtraText">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_width="412dp"
+        android:layout_height="734dp"
+        android:orientation="vertical"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="wrap_content"
+            android:contentDescription="@string/background"
+            android:id="@+id/background"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/background" />
     </LinearLayout>
 
     <LinearLayout
         android:id="@+id/linearLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="413dp"
+        android:layout_height="729dp"
         android:gravity="center"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="-16dp">
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
         <Button
-            android:id="@+id/ButtonJeu"
+            android:id="@+id/buttonGame"
             android:layout_width="409dp"
             android:layout_height="73dp"
             android:backgroundTint="@color/ButtonColor"
-            android:text="Jeu"
+            android:text="@string/game"
             android:textColor="@color/TextColor" />
 
         <Button
-            android:id="@+id/ButtonScore"
+            android:id="@+id/buttonScore"
             android:layout_width="409dp"
             android:layout_height="73dp"
             android:backgroundTint="@color/ButtonColor"
-            android:text="Score"
+            android:text="@string/score"
             android:textColor="@color/TextColor" />
 
     </LinearLayout>

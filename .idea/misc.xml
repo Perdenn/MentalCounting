@@ -3,12 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/layout/activity_game.xml" value="0.2" />
         <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/layout/activity_jeu.xml" value="0.2" />
-        <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/layout/activity_main.xml" value="0.176" />
         <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/layout/activity_page_principale.xml" value="0.1793478260869565" />
         <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/layout/activity_score.xml" value="0.264" />
         <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/layout/activity_score2.xml" value="0.16983695652173914" />
+        <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/menu/gamemenu.xml" value="0.13697916666666668" />
+        <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/menu/mainmenu.xml" value="0.13697916666666668" />
         <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/menu/menuprin.xml" value="0.25416666666666665" />
+        <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/menu/menuprincipal.xml" value="0.13020833333333334" />
+        <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/menu/menuscore.xml" value="0.13020833333333334" />
+        <entry key="..\:/IUT/Semestre4/DevApplication/Projet/app/src/main/res/menu/scoremenu.xml" value="0.13020833333333334" />
       </map>
     </option>
   </component>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Calcul Mental</string>
+    <string name="title_activity_page_principale">Menu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Tableau de bord</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="previous">Précédent</string>
+    <string name="answerGood">Réponse correcte</string>
+    <string name="validate">Valider</string>
+    <string name="answerBad">Réponse incorrecte</string>
+    <string name="main">Menu</string>
+    <string name="game">Jeu</string>
+    <string name="score">Score</string>
+    <string name="number_of_operation">Nombre d\'opérations : </string>
+    <string name="success_percentage">Pourcentage de réussite : </string>
+    <string name="last_operation_1_1_2">Dernière opération : 1+1=2 </string>
+    <string name="buttonPrevious">Précédent</string>
+    <string name="reset_score">Réinitialiser le score</string>
+    <string name="_1_1">1+1 =</string>
+    <string name="background">arrière plan</string>
+
+
+</resources>

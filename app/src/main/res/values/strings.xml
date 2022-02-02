@@ -1,8 +1,22 @@
 <resources>
     <string name="app_name">MentalCounting</string>
-    <string name="title_activity_page_principale">PagePrincipale</string>
+    <string name="title_activity_page_principale">Main Page</string>
     <string name="title_home">Home</string>
     <string name="title_dashboard">Dashboard</string>
     <string name="title_notifications">Notifications</string>
+    <string name="previous">Previous</string>
+    <string name="answerGood">Good answer</string>
+    <string name="validate">Validate</string>
+    <string name="answerBad">Bad answer</string>
+    <string name="main">Main</string>
+    <string name="game">Game</string>
+    <string name="score">Score</string>
+    <string name="number_of_operation">Number of operation :</string>
+    <string name="success_percentage">Success percentage :</string>
+    <string name="last_operation_1_1_2">Last operation : 1+1=2</string>
+    <string name="buttonPrevious">Previous</string>
+    <string name="reset_score">Reset score</string>
+    <string name="_1_1">1+1 =</string>
+    <string name="background">background</string>
 
 </resources>
