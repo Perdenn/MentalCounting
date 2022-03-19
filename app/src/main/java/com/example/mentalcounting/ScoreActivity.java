@@ -23,7 +23,7 @@ public class ScoreActivity extends AppCompatActivity {
         resultButton.setOnClickListener(view -> finish());
 
         ColorDrawable colorDrawable
-                = new ColorDrawable(Color.parseColor("#AB76F4"));
+                = new ColorDrawable(getResources().getColor(R.color.TitleColor));
 
         // Set BackgroundDrawable
         getSupportActionBar().setBackgroundDrawable(colorDrawable);

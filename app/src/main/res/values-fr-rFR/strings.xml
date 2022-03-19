@@ -14,7 +14,7 @@
     <string name="score">Score</string>
     <string name="number_of_operation">Nombre d\'opérations : </string>
     <string name="success_percentage">Pourcentage de réussite : </string>
-    <string name="last_operation_1_1_2">Dernière opération : 1+1=2 </string>
+    <string name="last_operation">Dernière opération : </string>
     <string name="buttonPrevious">Précédent</string>
     <string name="reset_score">Réinitialiser le score</string>
     <string name="_1_1">1+1 =</string>

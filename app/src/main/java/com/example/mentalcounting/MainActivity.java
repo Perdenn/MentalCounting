@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         associateOpenActivityToButton(R.id.buttonGame, GameActivity.class);
 
         ColorDrawable colorDrawable
-                = new ColorDrawable(Color.parseColor("#AB76F4"));
+                = new ColorDrawable(getResources().getColor(R.color.TitleColor));
 
         // Set BackgroundDrawable
         getSupportActionBar().setBackgroundDrawable(colorDrawable);

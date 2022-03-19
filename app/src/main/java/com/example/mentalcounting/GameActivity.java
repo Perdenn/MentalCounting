@@ -1,4 +1,5 @@
 package com.example.mentalcounting;
+import com.example.mentalcounting.Operation;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -11,23 +12,30 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import org.w3c.dom.Text;
 
 public class GameActivity extends AppCompatActivity {
+
+    Operation compute ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_game);
         associateOpenActivityToButton(R.id.main,MainActivity.class);
-
         ColorDrawable colorDrawable
-                = new ColorDrawable(Color.parseColor("#AB76F4"));
+                = new ColorDrawable(getResources().getColor(R.color.TitleColor));
 
         // Set BackgroundDrawable
         getSupportActionBar().setBackgroundDrawable(colorDrawable);
+        showOperation();
+        Button Submit = findViewById(R.id.validate);
+        Submit.setOnClickListener(view -> verifyAnswer());
     }
-
 
 
     private void associateOpenActivityToButton(int id, Class activity){
@@ -69,5 +77,29 @@ public class GameActivity extends AppCompatActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+
+
+    public void showOperation (){
+        TextView operationText = findViewById(R.id.operation);
+        compute = new Operation();
+        operationText.setText(compute.toString());
+    }
+
+    public void verifyAnswer() {
+        String answer = Integer.toString(compute.getAnswer());
+        TextView answerText = findViewById(R.id.userAnswer);
+        String userAnswer = (answerText.getText().toString()); //.getText().toString()
+        if (answer.equals(userAnswer)) {
+            findViewById(R.id.answerGood).setVisibility(View.VISIBLE);
+            findViewById(R.id.answerBad).setVisibility(View.GONE);
+                                  }
+        else{
+            findViewById(R.id.answerBad).setVisibility(View.VISIBLE);
+            findViewById(R.id.answerGood).setVisibility(View.GONE);
+            }
+        answerText.setText(null);
+        showOperation();
     }
 }

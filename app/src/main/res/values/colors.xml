@@ -10,6 +10,7 @@
 
     <color name="ButtonColor">#AB76F4</color>
     <color name="TextColor">#F8F5F5</color>
+    <color name="TitleColor">#AB76F4</color>
 
     <color name="green">#4CAF50</color>
     <color name="red">#E91E1E</color>

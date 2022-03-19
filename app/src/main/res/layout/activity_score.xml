@@ -50,7 +50,7 @@
         android:id="@+id/operationLast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/last_operation_1_1_2"
+        android:text="@string/last_operation"
         android:textSize="24sp" />
 
     <Space

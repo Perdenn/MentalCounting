@@ -13,7 +13,7 @@
     <string name="score">Score</string>
     <string name="number_of_operation">Number of operation :</string>
     <string name="success_percentage">Success percentage :</string>
-    <string name="last_operation_1_1_2">Last operation : 1+1=2</string>
+    <string name="last_operation">Last operation : </string>
     <string name="buttonPrevious">Previous</string>
     <string name="reset_score">Reset score</string>
     <string name="_1_1">1+1 =</string>
